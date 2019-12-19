@@ -1,0 +1,109 @@
+{
+    "name": "The Next Web",
+    "description": "Original and proudly opinionated perspectives on remarkable stories for Generation T",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/131-the-nextweb.jpg",
+    "tags": [
+        "have api",
+        "publishing",
+        "tech blog"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/the-next-web\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "The NextWeb",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/131-the-nextweb.jpg",
+            "humanURL": "http:\/\/thenextweb.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/the-nextweb-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/the-nextweb-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Blog RSS",
+            "url": "http:\/\/thenextweb.com\/feed\/"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/the-next-web"
+        },
+        {
+            "type": "Email",
+            "url": "derk@thenextweb.com"
+        },
+        {
+            "type": "Email",
+            "url": "boris@thenextweb.com"
+        },
+        {
+            "type": "Email",
+            "url": "info@thenextweb.com"
+        },
+        {
+            "type": "Email",
+            "url": "partnerships@thenextweb.com"
+        },
+        {
+            "type": "Email",
+            "url": "editors@thenextweb.com"
+        },
+        {
+            "type": "Email",
+            "url": "conference@thenextweb.com"
+        },
+        {
+            "type": "Email",
+            "url": "pr@thenextweb.com"
+        },
+        {
+            "type": "Email",
+            "url": "offers@thenextweb.com"
+        },
+        {
+            "type": "Email",
+            "url": "contributors@thenextweb.com"
+        },
+        {
+            "type": "Email",
+            "url": "iva@thenextweb.com"
+        },
+        {
+            "type": "Email",
+            "url": "privacy@thenextweb.com"
+        },
+        {
+            "type": "Email",
+            "url": "abhimanyu@thenextweb.com"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/TheNextWeb"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/thenextweb.com"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/thenextweb.com\/"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/thenextweb.com"
+        }
+    ]
+}
