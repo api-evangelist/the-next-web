@@ -1,0 +1,84 @@
+aid: the-next-web
+url: https://raw.githubusercontent.com/api-evangelist/the-next-web/refs/heads/main/apis.yml
+apis:
+- aid: the-next-web:the-next-web-rss-feed
+  name: TNW RSS Feed
+  tags:
+  - News
+  - Articles
+  - RSS
+  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  baseURL: https://thenextweb.com
+  humanURL: https://thenextweb.com/feed/
+  properties:
+  - url: https://thenextweb.com/feed/
+    type: RSS
+  description: >-
+    The Next Web provides an RSS feed that delivers the latest technology news,
+    analysis, and articles published on thenextweb.com. The feed covers a broad
+    range of topics including artificial intelligence, startups, innovation,
+    digital culture, and the future of work. Category-specific feeds are also
+    available for topics such as Deep Tech, Plugged (consumer technology), and
+    Sustainability. The feeds follow standard RSS/Atom formatting and can be
+    consumed by any feed reader or aggregator without authentication.
+name: The Next Web
+tags:
+- Media
+- Technology News
+- Innovation
+- Events
+type: Index
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
+common:
+- url: https://thenextweb.com/
+  name: TNW Website
+  type: Website
+- url: https://thenextweb.com/feed/
+  name: RSS Feed
+  type: RSS
+- url: https://thenextweb.com/latest
+  name: Latest News
+  type: News
+- url: https://thenextweb.com/newsletters
+  name: TNW Newsletters
+  type: Newsletter
+- url: https://thenextweb.com/events
+  name: TNW Events
+  type: Events
+- url: https://thenextweb.com/conference
+  name: TNW Conference
+  type: Events
+- url: https://thenextweb.com/about
+  name: About TNW
+  type: About
+- url: https://thenextweb.com/advertise
+  name: Advertise with TNW
+  type: Advertising
+- url: https://deals.thenextweb.com/
+  name: TNW Deals
+  type: Marketplace
+- url: https://thenextweb.com/privacy-statement
+  name: Privacy Statement
+  type: PrivacyPolicy
+- url: https://thenextweb.com/terms-of-service
+  name: Terms of Service
+  type: TermsOfService
+- url: https://thenextweb.com/contact
+  name: Contact TNW
+  type: Contact
+- url: https://x.com/thenextweb
+  name: TNW on X (Twitter)
+  type: X
+- url: https://www.linkedin.com/company/the-next-web
+  name: TNW on LinkedIn
+  type: LinkedIn
+- url: https://www.facebook.com/thenextweb/
+  name: TNW on Facebook
+  type: Facebook
+- url: https://github.com/thenextweb
+  name: TNW on GitHub
+  type: GitHub
+created: '2026-03-24'
+modified: '2026-03-24'
+specificationVersion: '0.19'
