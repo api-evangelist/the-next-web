@@ -1,15 +1,13 @@
 aid: the-next-web
-url: 
-  https://raw.githubusercontent.com/api-evangelist/the-next-web/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/the-next-web/refs/heads/main/apis.yml
 apis:
   - aid: the-next-web:the-next-web-rss-feed
     name: TNW RSS Feed
     tags:
-      - News
       - Articles
+      - News
       - RSS
-    image: 
-      https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://thenextweb.com
     humanURL: https://thenextweb.com/feed/
     properties:
@@ -23,13 +21,12 @@ apis:
       for topics such as Deep Tech, Plugged (consumer technology), and Sustainability.
 name: The Next Web
 tags:
+  - Events
+  - Innovation
   - Media
   - Technology News
-  - Innovation
-  - Events
 type: Index
-image: 
-  https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 common:
   - url: https://thenextweb.com/
