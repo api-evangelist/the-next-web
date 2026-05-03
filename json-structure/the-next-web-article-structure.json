@@ -1,0 +1,24 @@
+{
+  "name": "TNW RSS Article",
+  "description": "Structure of a news article entry in The Next Web RSS 2.0 feed.",
+  "fields": [
+    { "name": "title", "type": "string", "required": true, "description": "Article headline." },
+    { "name": "link", "type": "string (uri)", "required": true, "description": "Article URL on thenextweb.com." },
+    { "name": "description", "type": "string", "required": false, "description": "Short summary or excerpt." },
+    { "name": "pubDate", "type": "string (RFC 2822 datetime)", "required": true, "description": "Publication timestamp." },
+    { "name": "author", "type": "string", "required": false, "description": "Author full name." },
+    { "name": "category", "type": "string | array<string>", "required": false, "description": "Article categories (e.g., Artificial Intelligence, Startups, Cars)." },
+    { "name": "guid", "type": "string", "required": false, "description": "Unique identifier, typically the article URL." },
+    {
+      "name": "enclosure",
+      "type": "object",
+      "required": false,
+      "description": "Featured image or media attachment.",
+      "fields": [
+        { "name": "url", "type": "string (uri)", "description": "Media URL." },
+        { "name": "type", "type": "string", "description": "MIME type (e.g., image/jpeg)." },
+        { "name": "length", "type": "integer", "description": "File size in bytes." }
+      ]
+    }
+  ]
+}

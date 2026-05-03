@@ -1,0 +1,29 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "rss": "http://www.rssboard.org/rss-specification#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+
+    "Article": "schema:NewsArticle",
+    "Feed": "schema:DataFeed",
+    "Author": "schema:Person",
+    "Organization": "schema:NewsMediaOrganization",
+
+    "title": "schema:headline",
+    "link": { "@id": "schema:url", "@type": "@id" },
+    "description": "schema:description",
+    "pubDate": { "@id": "schema:datePublished", "@type": "xsd:dateTime" },
+    "author": "schema:author",
+    "category": "schema:articleSection",
+    "guid": "schema:identifier",
+    "enclosure": "schema:image",
+
+    "thenextweb": "https://thenextweb.com/",
+    "feedUrl": { "@id": "schema:url", "@type": "@id" },
+    "feedTitle": "schema:name",
+    "feedDescription": "schema:description",
+    "lastBuildDate": { "@id": "schema:dateModified", "@type": "xsd:dateTime" }
+  }
+}

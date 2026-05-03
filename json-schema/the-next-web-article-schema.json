@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/the-next-web/main/json-schema/the-next-web-article-schema.json",
+  "title": "TNW RSS Article",
+  "description": "A news article as published in The Next Web RSS 2.0 feed.",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Article headline."
+    },
+    "link": {
+      "type": "string",
+      "format": "uri",
+      "description": "Canonical URL to the full article on thenextweb.com."
+    },
+    "description": {
+      "type": "string",
+      "description": "Short summary or excerpt of the article content."
+    },
+    "pubDate": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Publication date and time in RFC 2822 format (e.g., Sat, 02 May 2026 17:09:00 +0000)."
+    },
+    "author": {
+      "type": "string",
+      "description": "Name of the article author."
+    },
+    "category": {
+      "oneOf": [
+        { "type": "string" },
+        { "type": "array", "items": { "type": "string" } }
+      ],
+      "description": "Category or categories the article belongs to (e.g., Artificial Intelligence, Startups, Cars)."
+    },
+    "guid": {
+      "type": "string",
+      "description": "Globally unique identifier for the article, typically the article URL."
+    },
+    "enclosure": {
+      "type": "object",
+      "description": "Media enclosure attached to the item (typically a featured image).",
+      "properties": {
+        "url": { "type": "string", "format": "uri", "description": "URL to the media file." },
+        "type": { "type": "string", "description": "MIME type (e.g., image/jpeg)." },
+        "length": { "type": "integer", "description": "File size in bytes." }
+      }
+    }
+  },
+  "required": ["title", "link", "pubDate"],
+  "additionalProperties": true
+}

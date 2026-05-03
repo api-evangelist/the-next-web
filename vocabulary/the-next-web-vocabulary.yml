@@ -1,0 +1,93 @@
+vocabulary: the-next-web
+description: >-
+  Vocabulary and taxonomy for The Next Web covering content categories,
+  article metadata fields in the RSS feed, and the topics TNW covers.
+version: "1.0"
+created: "2026-05-03"
+modified: "2026-05-03"
+
+domains:
+  - name: Content Categories
+    description: Primary editorial categories used to classify TNW articles.
+    terms:
+      - term: Artificial Intelligence
+        definition: "Coverage of AI models, machine learning research, large language models, AI policy, and enterprise AI adoption."
+      - term: Startups
+        definition: "News about early-stage companies, venture capital funding rounds, founder stories, and startup ecosystems."
+      - term: Deep Tech
+        definition: "Coverage of foundational technology areas: quantum computing, biotech, climate tech, space, advanced materials, and hard tech."
+      - term: Plugged
+        definition: "Consumer technology coverage including product reviews, gadgets, smartphones, and personal technology."
+      - term: Sustainability
+        definition: "Coverage of green technology, climate change, renewable energy, ESG, and sustainable business."
+      - term: Innovation
+        definition: "Stories about new technologies, products, business models, and transformative ideas."
+      - term: Money
+        definition: "Business and financial news including markets, investment, fintech, and economic trends."
+      - term: Google
+        definition: "Coverage of Google products, Alphabet business units, and related developments."
+      - term: Cars
+        definition: "Automotive technology news including electric vehicles, autonomous driving, and the automotive industry."
+      - term: China
+        definition: "Technology and business news focused on China's tech sector and global influence."
+      - term: Europe
+        definition: "Technology and business news focused on the European tech ecosystem and policy."
+      - term: Insights
+        definition: "Analysis, opinion, and in-depth coverage of technology and business trends."
+      - term: Next Featured
+        definition: "Articles highlighted as featured content on the TNW homepage."
+
+  - name: RSS Feed Fields
+    description: Fields in The Next Web RSS 2.0 feed entries.
+    terms:
+      - term: title
+        definition: "Article headline as it appears on thenextweb.com."
+      - term: link
+        definition: "Canonical URL to the full article on thenextweb.com."
+      - term: description
+        definition: "Short summary or teaser excerpt of the article content."
+      - term: pubDate
+        definition: "RFC 2822 formatted publication date and time (e.g., Sat, 02 May 2026 17:09:00 +0000)."
+      - term: author
+        definition: "Full name of the TNW journalist or contributor who wrote the article."
+      - term: category
+        definition: "Editorial category or topic tag applied to the article. Multiple categories may be present."
+      - term: guid
+        definition: "Globally unique identifier, typically the canonical article URL."
+      - term: enclosure
+        definition: "Featured media asset (usually an image) attached to the RSS item."
+
+  - name: Feed Types
+    description: The different RSS feeds available from The Next Web.
+    terms:
+      - term: Main Feed
+        definition: "All TNW articles across all topics. Updated hourly. URL: https://thenextweb.com/feed/"
+      - term: Deep Tech Feed
+        definition: "Articles specifically in the Deep Tech category. URL: https://thenextweb.com/deep-tech/feed/"
+      - term: Plugged Feed
+        definition: "Consumer technology articles from the Plugged section. URL: https://thenextweb.com/plugged/feed/"
+      - term: Sustainability Feed
+        definition: "Articles covering sustainability, climate tech, and green business. URL: https://thenextweb.com/sustainability/feed/"
+
+  - name: Publication
+    description: Key aspects of TNW as a media organization.
+    terms:
+      - term: TNW
+        definition: "Abbreviation for The Next Web, commonly used in headlines and social media."
+      - term: TNW Conference
+        definition: "Annual technology conference organized by The Next Web, typically held in Amsterdam."
+      - term: TNW Deals
+        definition: "TNW's curated technology deals marketplace at deals.thenextweb.com."
+      - term: TNW Newsletters
+        definition: "Email newsletters covering tech news, AI, and startup topics."
+
+tags:
+  - Technology News
+  - Innovation
+  - Media
+  - Startups
+  - Artificial Intelligence
+  - RSS
+  - Events
+  - Europe
+  - Digital Culture

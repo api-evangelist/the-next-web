@@ -1,61 +1,83 @@
-# The Next Web (the-next-web)
+# The Next Web
 
-The Next Web (https://thenextweb.com/) is a global technology media company and conference organizer founded in 2006 in Amsterdam, Netherlands. Known by its abbreviation TNW, the company operates a widely-read technology news website covering artificial intelligence, startups, innovation, digital culture, sustainability, and the future of work. TNW also produces its flagship annual conference — now held in London — along with events across major European cities and internationally. Its audience spans developers, founders, investors, and technology enthusiasts worldwide.
+The Next Web (TNW) is a leading global technology media organization and conference organizer founded in 2006. TNW covers artificial intelligence, startups, innovation, digital culture, sustainability, and the future of work. Programmatic access to TNW content is available via RSS 2.0 feeds updated hourly.
 
-**URL:** [https://raw.githubusercontent.com/api-evangelist/the-next-web/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/the-next-web/refs/heads/main/apis.yml)
+**Website:** [thenextweb.com](https://thenextweb.com/)  
+**GitHub:** [github.com/thenextweb](https://github.com/thenextweb)
 
-## Scope
+---
 
-- **Type:** Contract
-- **Position:** Consuming
-- **Access:** 3rd-Party
+## RSS Feeds
 
-## Tags:
+| Feed | URL | Description |
+|------|-----|-------------|
+| Main Feed | [thenextweb.com/feed/](https://thenextweb.com/feed/) | All TNW articles, updated hourly |
+| Deep Tech | [thenextweb.com/deep-tech/feed/](https://thenextweb.com/deep-tech/feed/) | Quantum, biotech, climate tech, space |
+| Plugged | [thenextweb.com/plugged/feed/](https://thenextweb.com/plugged/feed/) | Consumer technology reviews |
+| Sustainability | [thenextweb.com/sustainability/feed/](https://thenextweb.com/sustainability/feed/) | Green tech and climate coverage |
 
- - Media, Technology News, Innovation, Events
+---
 
-## Timestamps
+## JSON Schemas
 
-- **Created:** 2026-03-24
-- **Modified:** 2026-03-24
+| Schema | File |
+|--------|------|
+| RSS Article | [json-schema/the-next-web-article-schema.json](json-schema/the-next-web-article-schema.json) |
 
-## APIs
+---
 
-### TNW RSS Feed
+## JSON Structure
 
-The Next Web provides an RSS feed that delivers the latest technology news, analysis, and articles published on thenextweb.com. The feed covers a broad range of topics including artificial intelligence, startups, innovation, digital culture, and the future of work. Category-specific feeds are also available for topics such as Deep Tech, Plugged (consumer technology), and Sustainability. The feeds follow standard RSS/Atom formatting and can be consumed by any feed reader or aggregator without authentication.
+| Structure | File |
+|-----------|------|
+| RSS Article | [json-structure/the-next-web-article-structure.json](json-structure/the-next-web-article-structure.json) |
 
-**Human URL:** [https://thenextweb.com/feed/](https://thenextweb.com/feed/)
+---
 
-#### Tags:
+## JSON-LD
 
- - News, Articles, RSS
+| Context | File |
+|---------|------|
+| TNW Context | [json-ld/the-next-web-context.jsonld](json-ld/the-next-web-context.jsonld) |
 
-#### Properties
+---
 
-- [RSS](https://thenextweb.com/feed/)
+## Vocabulary
 
-## Common Properties
+| Vocabulary | File |
+|------------|------|
+| TNW Vocabulary | [vocabulary/the-next-web-vocabulary.yml](vocabulary/the-next-web-vocabulary.yml) |
 
-- [Website](https://thenextweb.com/)
-- [RSS](https://thenextweb.com/feed/)
-- [News](https://thenextweb.com/latest)
-- [Newsletter](https://thenextweb.com/newsletters)
-- [Events](https://thenextweb.com/events)
-- [Events](https://thenextweb.com/conference)
-- [About](https://thenextweb.com/about)
-- [Advertising](https://thenextweb.com/advertise)
-- [Marketplace](https://deals.thenextweb.com/)
-- [PrivacyPolicy](https://thenextweb.com/privacy-statement)
-- [TermsOfService](https://thenextweb.com/terms-of-service)
-- [Contact](https://thenextweb.com/contact)
-- [X](https://x.com/thenextweb)
-- [LinkedIn](https://www.linkedin.com/company/the-next-web)
-- [Facebook](https://www.facebook.com/thenextweb/)
-- [GitHub](https://github.com/thenextweb)
+---
+
+## Content Categories
+
+TNW covers the following editorial topics:
+
+- **Artificial Intelligence** — AI models, LLMs, machine learning, AI policy
+- **Startups** — Funding rounds, founder stories, startup ecosystems
+- **Deep Tech** — Quantum computing, biotech, climate tech, space
+- **Plugged** — Consumer electronics, gadgets, product reviews
+- **Sustainability** — Green tech, climate change, ESG, renewable energy
+- **Innovation** — New products, business models, transformative ideas
+- **Money** — Markets, fintech, investment, economic trends
+- **Europe** — European tech ecosystem and policy
+- **China** — China's tech sector and global influence
+
+---
+
+## Events
+
+- [TNW Conference](https://thenextweb.com/conference) — Annual technology conference
+- [TNW Events](https://thenextweb.com/events) — Full events calendar
+
+---
 
 ## Maintainers
 
-**FN:** API Evangelist
+**FN:** Kin Lane  
+**Email:** kin@apievangelist.com
 
-**Email:** info@apievangelist.com
+---
+
+*Profile generated 2026-05-03*
