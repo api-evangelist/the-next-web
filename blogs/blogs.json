@@ -1,0 +1,31 @@
+{
+  "repo": "the-next-web",
+  "feeds": [
+    {
+      "source": "https://thenextweb.com/feed/",
+      "feed_url": "https://thenextweb.com/feed/",
+      "saved": 10,
+      "title": "The Next Web"
+    },
+    {
+      "source": "https://thenextweb.com/deep-tech/feed/",
+      "feed_url": "https://thenextweb.com/deep-tech/feed/",
+      "saved": 10,
+      "title": "The Next Web"
+    },
+    {
+      "source": "https://thenextweb.com/plugged/feed/",
+      "feed_url": "https://thenextweb.com/plugged/feed/",
+      "saved": 10,
+      "title": "The Next Web"
+    },
+    {
+      "source": "https://thenextweb.com/sustainability/feed/",
+      "feed_url": "https://thenextweb.com/sustainability/feed/",
+      "saved": 10,
+      "title": "The Next Web"
+    }
+  ],
+  "post_count": 40,
+  "fetched": "2026-05-03T23:37:29Z"
+}
