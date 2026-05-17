@@ -10,7 +10,7 @@ description: >-
   are also available for Deep Tech, Plugged (consumer tech), and Sustainability.
   TNW also organizes the annual TNW Conference and operates a technology events
   business.
-type: Contract
+kind: contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 tags:
