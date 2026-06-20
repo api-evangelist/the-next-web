@@ -11,7 +11,7 @@ description: >-
   TNW also organizes the annual TNW Conference and operates a technology events
   business.
 kind: contract
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 tags:
   - Technology News
@@ -34,7 +34,7 @@ apis:
       feeds are available for Deep Tech, Plugged (consumer tech), and
       Sustainability. Each article entry includes title, link, description,
       publication date, author, and category tags.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     baseURL: https://thenextweb.com
     humanURL: https://thenextweb.com/feed/
     tags:
