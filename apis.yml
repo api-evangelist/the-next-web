@@ -57,6 +57,8 @@ apis:
         type: RSS
 
 common:
+  - type: DomainSecurity
+    url: security/the-next-web-domain-security.yml
   - url: https://thenextweb.com/
     name: TNW Website
     type: Website
