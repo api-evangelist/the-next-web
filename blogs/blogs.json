@@ -3,33 +3,21 @@
   "feeds": [
     {
       "source": "https://thenextweb.com/feed/",
-      "feed_url": "https://thenextweb.com/feed/",
-      "title": "",
-      "saved": 1,
-      "method": "feed"
+      "error": "HTTPError"
     },
     {
       "source": "https://thenextweb.com/deep-tech/feed/",
-      "feed_url": "https://thenextweb.com/deep-tech/feed/",
-      "title": "",
-      "saved": 0,
-      "method": "feed"
+      "error": "HTTPError"
     },
     {
       "source": "https://thenextweb.com/plugged/feed/",
-      "feed_url": "https://thenextweb.com/plugged/feed/",
-      "title": "",
-      "saved": 0,
-      "method": "feed"
+      "error": "HTTPError"
     },
     {
       "source": "https://thenextweb.com/sustainability/feed/",
-      "feed_url": "https://thenextweb.com/sustainability/feed/",
-      "title": "",
-      "saved": 0,
-      "method": "feed"
+      "error": "HTTPError"
     }
   ],
-  "post_count": 122,
-  "fetched": "2026-07-11T11:50:51Z"
+  "post_count": 146,
+  "fetched": "2026-08-01T15:49:00Z"
 }
