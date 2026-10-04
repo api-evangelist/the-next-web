@@ -65,7 +65,6 @@ apis:
       Sustainability. Each article entry includes title, link, description,
       publication date, author, and category tags.
     image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
-    baseURL: https://thenextweb.com
     humanURL: https://thenextweb.com/feed/
     tags:
       - Articles
