@@ -64,84 +64,133 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-The Next Web (TNW) is a leading global technology media organization and conference organizer founded in 2006. TNW covers artificial intelligence, startups, innovation, digital culture, sustainability, and the future of work. Programmatic access to TNW content is available via RSS 2.0 feeds updated hourly.
+The Next Web is a leading online media organization covering technology news, business, and culture. Founded in 2006, TNW reports on startups, innovation, artificial intelligence, digital culture, and the future of work. The primary programmatic access to TNW content is through its RSS 2.0 feed, which is updated hourly with the latest articles across all topic areas. Category-specific feeds are also available for Deep Tech, Plugged (consumer tech), and Sustainability. TNW also organizes the annual TNW Conference and operates a technology events business.
 
-**Website:** [thenextweb.com](https://thenextweb.com/)  
-**GitHub:** [github.com/thenextweb](https://github.com/thenextweb)
+**Areas:** Technology News · Innovation · Media · Event · Startups · Artificial Intelligence
 
----
+## The Next Web on APIs.io
 
-## RSS Feeds
+Everything profiled for The Next Web is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/the-next-web/](https://apis.io/providers/the-next-web/)** — or go straight to one of the APIs or properties below.
 
-| Feed | URL | Description |
-|------|-----|-------------|
-| Main Feed | [thenextweb.com/feed/](https://thenextweb.com/feed/) | All TNW articles, updated hourly |
-| Deep Tech | [thenextweb.com/deep-tech/feed/](https://thenextweb.com/deep-tech/feed/) | Quantum, biotech, climate tech, space |
-| Plugged | [thenextweb.com/plugged/feed/](https://thenextweb.com/plugged/feed/) | Consumer technology reviews |
-| Sustainability | [thenextweb.com/sustainability/feed/](https://thenextweb.com/sustainability/feed/) | Green tech and climate coverage |
+### APIs (1)
 
----
+- [TNW RSS Feed](https://apis.io/apis/the-next-web/the-next-web-rss-feed/) — The Next Web provides an RSS 2.0 feed updated hourly with the latest technology news, analysis, and articles published on thenextweb.com. The feed covers…
 
-## JSON Schemas
+### Published properties
 
-| Schema | File |
-|--------|------|
-| RSS Article | [json-schema/the-next-web-article-schema.json](json-schema/the-next-web-article-schema.json) |
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
----
+#### JSON Schema (1)
 
-## JSON Structure
+The data models the API reads and writes.
 
-| Structure | File |
-|-----------|------|
-| RSS Article | [json-structure/the-next-web-article-structure.json](json-structure/the-next-web-article-structure.json) |
+- [TNW RSS Article](https://apis.io/schemas/the-next-web/the-next-web-article/)
 
----
+#### JSON Structure (1)
 
-## JSON-LD
+Data models expressed in JSON Structure.
 
-| Context | File |
-|---------|------|
-| TNW Context | [json-ld/the-next-web-context.jsonld](json-ld/the-next-web-context.jsonld) |
+- [The Next Web Article Structure](https://apis.io/json-structure/the-next-web/the-next-web-article-structure/)
 
----
+#### JSON-LD (1)
 
-## Vocabulary
+Linked-data contexts for the provider's vocabulary.
 
-| Vocabulary | File |
-|------------|------|
-| TNW Vocabulary | [vocabulary/the-next-web-vocabulary.yml](vocabulary/the-next-web-vocabulary.yml) |
+- [The Next Web Context](https://apis.io/jsonld/the-next-web/the-next-web-context/)
 
----
+#### Vocabulary (1)
 
-## Content Categories
+The provider's domain terms, defined.
 
-TNW covers the following editorial topics:
+- [The Next Web Vocabulary](https://apis.io/vocabularies/the-next-web/the-next-web-vocabulary/)
 
-- **Artificial Intelligence** — AI models, LLMs, machine learning, AI policy
-- **Startups** — Funding rounds, founder stories, startup ecosystems
-- **Deep Tech** — Quantum computing, biotech, climate tech, space
-- **Plugged** — Consumer electronics, gadgets, product reviews
-- **Sustainability** — Green tech, climate change, ESG, renewable energy
-- **Innovation** — New products, business models, transformative ideas
-- **Money** — Markets, fintech, investment, economic trends
-- **Europe** — European tech ecosystem and policy
-- **China** — China's tech sector and global influence
+#### Governance rules (1)
 
----
+Spectral rulesets for the provider's contracts.
 
-## Events
+- [The Next Web — jsonschema rules](https://apis.io/rules/the-next-web/the-next-web-jsonschema-spectral-rules/)
 
-- [TNW Conference](https://thenextweb.com/conference) — Annual technology conference
-- [TNW Events](https://thenextweb.com/events) — Full events calendar
+#### Security (1)
 
----
+Authentication, trust centre, and vulnerability disclosure.
 
-## Maintainers
+- [The Next Web Domain Security](https://apis.io/security/the-next-web/the-next-web-domain-security/)
 
-**FN:** Kin Lane  
-**Email:** kin@apievangelist.com
+#### Plans and pricing (1)
 
----
+Published plans, tiers and prices.
 
-*Profile generated 2026-05-03*
+- [The Next Web Plans Pricing](https://apis.io/plans/the-next-web/the-next-web-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [The Next Web Rate Limits](https://apis.io/rate-limits/the-next-web/the-next-web-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [The Next Web Finops](https://apis.io/finops/the-next-web/the-next-web-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://thenextweb.com/)
+- [Terms of service](https://thenextweb.com/terms-of-service)
+- [Privacy policy](https://thenextweb.com/privacy-statement)
+
+## API Evangelist rating
+
+**Kin Score 19.2** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 58.9 |
+| Contract quality | 10.7 |
+| Contract governance | 23.5 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 28.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/the-next-web/](https://apis.io/providers/the-next-web/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for The Next Web: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/the-next-web/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
